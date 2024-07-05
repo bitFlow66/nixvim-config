@@ -21,10 +21,10 @@
     #   enable = true;
     #   colorscheme = "tokyodark";
     # };
-    # colorschemes.tokyonight = {
-    # enable = true;
-    # style = "night";
-    # };
+    colorschemes.tokyonight = {
+    enable = true;
+    settings.style = "night";
+    };
     # colorschemes.catppuccin = {
     #   enable = true;
     #   flavour = "mocha";

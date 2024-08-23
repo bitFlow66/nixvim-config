@@ -16,5 +16,6 @@
     ./markdown-preview.nix
     ./zig.nix
     ./luasnip.nix
+    ./lazy.nix
   ];
 }

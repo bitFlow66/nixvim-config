@@ -38,6 +38,7 @@
     lsp = {
       enable = true;
       servers = {
+        zls.enable = true;
         nil-ls.enable = true;
       };
     };

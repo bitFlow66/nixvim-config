@@ -5,7 +5,6 @@
     ./mini.nix
     ./telescope.nix
     ./barbar.nix
-    ./nix.nix
     ./lsp.nix
     ./cmp.nix
     ./treesitter.nix
@@ -14,7 +13,10 @@
     ./comment.nix
     ./diffview.nix
     ./markdown-preview.nix
-    ./zig.nix
     ./luasnip.nix
+
+    # Languages
+    ./languages/nix.nix
+    ./languages/zig.nix
   ];
 }

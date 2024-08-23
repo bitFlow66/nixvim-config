@@ -1,16 +1,29 @@
-# Nixvim template
+# Nixvim config
 
-This template gives you a good starting point for configuring nixvim standalone.
+Nixvim configuration with various languages.
 
-## Configuring
+## Installed languages
+- [x] nix
+- [x] zig
+- [ ] python
 
-To start configuring, just add or modify the nix files in `./config`.
-If you add a new configuration file, remember to add it to the
-[`config/default.nix`](./config/default.nix) file
+## Installed features
+- [x] barbar (Tabline)
+- [x] cmp
+- [x] comment
+- [x] diffview
+- [x] lualine
+- [x] luasnip
+- [x] markdown-preview
+- [x] mini
+- [x] neotree
+- [x] telescope
+- [x] treesitter
+- [x] whichKey
+- [x] wilder (cmd line suggestions)
+- [ ] nvim-ufo
 
-## Testing your new configuration
-
-To test your configuration simply run the following command
+## Testing configuriaton
 
 ```
 nix run .

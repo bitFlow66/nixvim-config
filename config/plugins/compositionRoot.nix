@@ -15,5 +15,6 @@
     ./diffview.nix
     ./markdown-preview.nix
     ./zig.nix
+    ./luasnip.nix
   ];
 }

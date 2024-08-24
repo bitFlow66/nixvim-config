@@ -14,6 +14,7 @@
     ./diffview.nix
     ./markdown-preview.nix
     ./luasnip.nix
+    ./ufo.nix
 
     # Languages
     ./languages/nix.nix

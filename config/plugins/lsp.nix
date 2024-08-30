@@ -1,3 +1,4 @@
+{ pkgs, inputs, ... }:
 {
   plugins = {
     treesitter = {
@@ -35,10 +36,13 @@
     #   };
     # };
 
-    lsp = {
+        lsp = {
       enable = true;
       servers = {
-        zls.enable = true;
+        zls = {
+          enable = true;
+          package = inputs.zls.packages.${pkgs.system}.default;
+        };
         nil-ls.enable = true;
       };
     };

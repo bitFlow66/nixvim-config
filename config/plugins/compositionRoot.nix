@@ -15,6 +15,7 @@
     ./markdown-preview.nix
     ./luasnip.nix
     ./ufo.nix
+    ./conform.nix
 
     # Languages
     ./languages/nix.nix

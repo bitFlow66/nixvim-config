@@ -39,11 +39,14 @@
         lsp = {
       enable = true;
       servers = {
+        nil-ls.enable = true;
         zls = {
           enable = true;
           package = inputs.zls.packages.${pkgs.system}.default;
         };
-        nil-ls.enable = true;
+        pylyzer = {
+          enable = true;
+        };
       };
     };
   };

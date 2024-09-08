@@ -28,8 +28,8 @@
           # back and fourth between the two most recent files
           "<C-c>" = ":b#<CR>";
 
-          # close by Ctrl+x
-          # "<C-x>" = ":close<CR>";
+          # Rename text
+          "<leader>rn" = ":IncRename ";
 
           # save by \+s or Ctrl+s
           # "<leader>s" = ":w<CR>";
@@ -65,6 +65,8 @@
           # move selected line / block of text in visual mode
           "K" = ":m '<-2<CR>gv=gv";
           "J" = ":m '>+1<CR>gv=gv";
+          ">" = "><CR>gv";
+          "<" = "<<CR>gv";
         };
     in
       helpers.keymaps.mkKeymaps

@@ -16,6 +16,7 @@
     ./luasnip.nix
     ./ufo.nix
     ./conform.nix
+    ./inc-rename.nix
 
     # Languages
     ./languages/nix.nix

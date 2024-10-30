@@ -22,6 +22,7 @@ Nixvim configuration with various languages.
 - [x] whichKey
 - [x] wilder (cmd line suggestions)
 - [ ] nvim-ufo
+- [ ] spellchecking
 
 ## Testing configuriaton
 

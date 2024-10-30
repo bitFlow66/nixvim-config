@@ -17,6 +17,7 @@
     ./ufo.nix
     ./conform.nix
     ./inc-rename.nix
+    ./direnv.nix
 
     # Languages
     ./languages/nix.nix

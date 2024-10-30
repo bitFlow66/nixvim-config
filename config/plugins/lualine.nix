@@ -1,13 +1,13 @@
 {
   plugins.lualine = {
     enable = true;
-    globalstatus = true;
+    settings.options.globalstatus = true;
 
     # +-------------------------------------------------+
     # | A | B | C                             X | Y | Z |
     # +-------------------------------------------------+
 
-    sections = {
+    settings.sections = {
       lualine_a = ["mode"];
       lualine_b = ["branch"];
       lualine_c = ["filename" "diff"];
@@ -17,7 +17,7 @@
 
         # Show active language server
         {
-          name.__raw = ''
+          __unkeyed.__raw = ''
             function()
                 local msg = ""
                 local buf_ft = vim.api.nvim_buf_get_option(0, 'filetype')

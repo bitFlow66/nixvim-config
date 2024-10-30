@@ -1,7 +1,7 @@
 {
   plugins.nvim-ufo = {
     enable = true;
-    providerSelector = "function(bufnr, filetype, buftype)
+    settings.provider_selector = "function(bufnr, filetype, buftype)
       return { 'lsp', 'indent' }
     end";
   };

@@ -10,9 +10,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     flake-parts.url = "github:hercules-ci/flake-parts";
-    # Use latest zig lsp
-    zls.url = "github:zigtools/zls";
-    zls.inputs.nixpkgs.follows = "nixpkgs";
   };
   outputs =
     { nixvim, flake-parts, ... }@inputs:

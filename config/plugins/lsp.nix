@@ -35,7 +35,8 @@
         yamlls.enable = true;
         zls = {
           enable = true;
-          # package = inputs.zls.packages.${pkgs.system}.default;
+          # Disable package, so that the local server is used
+          package = null;
         };
       };
       keymaps.lspBuf = {

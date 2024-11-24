@@ -18,6 +18,7 @@
     ./conform.nix
     ./inc-rename.nix
     ./direnv.nix
+    ./neorg.nix
 
     # Languages
     ./languages/nix.nix

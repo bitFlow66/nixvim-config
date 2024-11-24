@@ -23,6 +23,7 @@ Nixvim configuration with various languages.
 - [x] wilder (cmd line suggestions)
 - [ ] nvim-ufo
 - [ ] spellchecking
+- [x] neorg notes
 
 ## Testing configuriaton
 

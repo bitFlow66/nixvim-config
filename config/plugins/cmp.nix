@@ -10,6 +10,7 @@
         {name = "path";}
         {name = "buffer";}
         {name = "luasnip";}
+        {name =  "neorg";}
       ];
       mapping = {
         "<C-d>" = "cmp.mapping.scroll_docs(-4)";

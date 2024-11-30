@@ -1,7 +1,7 @@
 {
   plugins.neorg = {
     enable = true;
-    lazyLoading = true;
+    # lazyLoading = true;
     modules = {
       "core.defaults" = {
         # Activate module, but do not overwrite default config
@@ -10,12 +10,24 @@
       "core.concealer" = {
         __empty = null;
       };
+      "core.keybinds" = {
+        __empty = null;
+        config = {
+          default_keybinds = true;
+        };
+      };
       "core.dirman" = {
         config = {
           workspaces = {
             home = "~/notes/home";
           };
         };
+      };
+      "core.export" = {
+        __empty = null;
+      };
+      "core.summary" = {
+        __empty = null;
       };
     };
   };

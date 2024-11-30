@@ -5,9 +5,12 @@
       nixvimInjections = true;
       folding = true;
       nixGrammars = true;
-      settings = { 
+      settings = {
         indent.enable = true;
-        highlight.disable = [ "zig" ]; 
+        highlight = {
+          enable = true;
+          disable = [ "zig" ];
+        };
       };
     };
     treesitter-context = {

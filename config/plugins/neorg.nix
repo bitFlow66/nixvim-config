@@ -2,7 +2,7 @@
   plugins.neorg = {
     enable = true;
     # lazyLoading = true;
-    modules = {
+    settings.load = {
       "core.defaults" = {
         # Activate module, but do not overwrite default config
         __empty = null;

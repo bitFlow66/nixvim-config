@@ -33,6 +33,12 @@
         marksman.enable = true;
         # ruff-lsp.enable = true;
         yamlls.enable = true;
+
+        # C/C++
+        clangd.enable = true;
+        cmake.enable = true;
+
+
         zls = {
           enable = true;
           # Disable package, so that the local server is used

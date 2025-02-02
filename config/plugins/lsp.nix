@@ -38,6 +38,8 @@
         clangd.enable = true;
         cmake.enable = true;
 
+        # cSharp
+        csharp_ls.enable = true;
 
         zls = {
           enable = true;

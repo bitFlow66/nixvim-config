@@ -13,6 +13,7 @@
         # "*" = [ "spellcheck" ];
         # Use the "_" filetype to run formatters on filetypes that don't
         # have other formatters configured.
+        cs = [ "csharpier" ];
         "_" = [ "trim_whitespace" ];
        };
       #  formatOnSave = "function(args)
